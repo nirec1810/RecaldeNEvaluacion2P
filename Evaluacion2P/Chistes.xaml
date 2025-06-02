@@ -2,11 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Evaluacion2P.Chistes"
-             Title="Chistes">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="">
+    <AbsoluteLayout>
+
+        <Label x:Name="ChisteLabel"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.8, 0.5"
+               AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="Otro chiste"
+                Clicked="Button_Clicked"
+                BackgroundColor="Turquoise"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.5, 1, 1, 50"
+                AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional" />
+
+    </AbsoluteLayout>
 </ContentPage>

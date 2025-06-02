@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Evaluacion2P.MainPage"
              Title="">
-
-    <VerticalStackLayout Padding="30" Margin="20" Spacing="30">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Margin="20" Spacing="30">
         <Label Text="Bienvenido a la aplicacion de Nicolas Recalde"
                FontSize="40"
                HorizontalOptions="Center"/>
@@ -25,5 +25,5 @@
                 WidthRequest="200"
                 Clicked="Button_Clicked_1"/>
     </VerticalStackLayout>
-
+    </ScrollView>
 </ContentPage>
