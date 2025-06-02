@@ -9,7 +9,9 @@
                FontSize="40"
                HorizontalOptions="Center"/>
         <Image Source="yo.jpeg"
-               HorizontalOptions="Center"/>
+               HorizontalOptions="Center"
+               HeightRequest="450"
+               WidthRequest="450"/>
         <Button Text="Chistes"
                 HorizontalOptions="Center"
                 BackgroundColor="Turquoise"

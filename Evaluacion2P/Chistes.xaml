@@ -6,7 +6,9 @@
     <AbsoluteLayout>
 
         <Label x:Name="ChisteLabel"
-               FontSize="20"
+               BackgroundColor="White"
+               TextColor="Black"
+               FontSize="25"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                HorizontalTextAlignment="Center"
@@ -18,8 +20,9 @@
                 Clicked="Button_Clicked"
                 BackgroundColor="Turquoise"
                 TextColor="White"
-                AbsoluteLayout.LayoutBounds="0.5, 1, 1, 50"
-                AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional" />
+                AbsoluteLayout.LayoutBounds="0.5, 0.9, 1, 50"
+                AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional"
+                WidthRequest="200"/>
 
     </AbsoluteLayout>
 </ContentPage>
